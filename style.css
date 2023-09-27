@@ -26,7 +26,7 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 10vh;
-    width: 50vw;
+    width: 40vw;
   }
   .center {
     widtH: 100%;
@@ -51,6 +51,7 @@
     .signUp .left, .signUp .right {
       width: 100%;
     }
+ 
   }
   .signUp .left {
     display: flex;
@@ -164,4 +165,16 @@
     transition: 0.15s ease-in-out;
     cursor: text;
     transform-origin: center left;
+  }
+
+  /* mobiles */
+  @media (max-width: 640px) {
+    .banner-box{
+      width: 115vw;
+    }
+  }
+  @media (max-width:950px) and (min-width:650px) {
+    .banner-box{
+      width: 105vw;
+    }
   }
